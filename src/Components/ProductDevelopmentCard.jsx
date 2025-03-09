@@ -96,14 +96,14 @@ export const ProductDevelopment = () => {
         buttonLabel={product1.buttonLabel}
         highlightUrl={product1.highlightUrl}
       />
-      <ProductCard
+{/*       <ProductCard
         title={product2.title}
         description={product2.description}
         url={product2.url}
         thumbnail={product2.thumbnail}
         buttonLabel={product2.buttonLabel}
         highlightUrl={product2.highlightUrl}
-      />
+      /> */}
     </div>
   );
 };
