@@ -76,15 +76,15 @@ export const ProductDevelopment = () => {
     highlightUrl: "https://youtu.be/IYHl5nUxFbY", // No highlight for this card
   };
 
-  const product2 = {
-    title: "/assets/apigenlogo.png",
-    description:
-      "APIGen simplifies API testing, debugging, validation, and performance analysis.",
-    url: "https://apigen-eight.vercel.app/",
-    thumbnail: "/assets/apigen.png", // Replace with the actual logo/image URL
-    buttonLabel: "Visit Product URL",
-    highlightUrl: "https://youtu.be/QllN8JGEUFQ",
-  };
+  // const product2 = {
+  //   title: "/assets/apigenlogo.png",
+  //   description:
+  //     "APIGen simplifies API testing, debugging, validation, and performance analysis.",
+  //   url: "https://apigen-eight.vercel.app/",
+  //   thumbnail: "/assets/apigen.png", // Replace with the actual logo/image URL
+  //   buttonLabel: "Visit Product URL",
+  //   highlightUrl: "https://youtu.be/QllN8JGEUFQ",
+  // };
 
   return (
     <div className="flex flex-col md:flex-row items-center justify-center gap-6 p-6 bg-gray-50 w-full">
