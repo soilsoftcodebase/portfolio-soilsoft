@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SSLogo from "../assets/SSLogo.webp";
 import Headline from "../assets/headline.png";
+import APIGenThumbnail from "../assets/apigenlogo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

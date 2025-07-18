@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import APIGenThumbnail from "../assets/apigenlogo.png";
 
 const Products = () => {
   const [showVideo, setShowVideo] = useState(false);
@@ -207,7 +208,14 @@ const Products = () => {
               {!showVideo ? (
                 <div className="video-thumbnail" onClick={handleVideoPlay}>
                   <img
-                    src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src={APIGenThumbnail}
+                    style={{
+                      padding: "1rem",
+                      paddingTop: "5rem",
+                      paddingBottom: "5rem",
+                      objectFit: "cover",
+                      borderRadius: "0.75rem",
+                    }}
                     alt="APIGen Demo Video Thumbnail"
                   />
                   <div className="play-button"></div>
