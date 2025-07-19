@@ -257,7 +257,7 @@ const Products = () => {
             >
               <img
                 src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Custom Enterprise Solutions"
+                alt="India's 1st 8000+ Man Power Supplier Customized ERP System"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -274,7 +274,21 @@ const Products = () => {
                 color: "#1f2937",
               }}
             >
-              Custom Enterprise Solutions
+              India's 1st 8000+ Man Power Supplier Customized ERP System
+              <span
+                style={{
+                  backgroundColor: "#fef3c7",
+                  color: "#b45309",
+                  fontSize: "0.8rem",
+                  fontWeight: "500",
+                  padding: "0.25rem 0.5rem",
+                  borderRadius: "0.25rem",
+                  marginLeft: "0.5rem",
+                  verticalAlign: "middle",
+                }}
+              >
+                In Progress
+              </span>
             </h3>
 
             <p
@@ -284,8 +298,9 @@ const Products = () => {
                 lineHeight: "1.6",
               }}
             >
-              Tailored ERP systems and inventory management solutions designed
-              to streamline your business operations and improve efficiency.
+              We are working on a tailored ERP system designed to manage and
+              optimize large-scale manpower operations with over 8000+
+              workforce.
             </p>
 
             <ul
@@ -295,10 +310,10 @@ const Products = () => {
               }}
             >
               {[
-                "Customized ERP Systems",
-                "Inventory Management",
-                "Business Process Automation",
-                "Integration Services",
+                "Workforce Management",
+                "Custom ERP Development",
+                "Real-Time Analytics",
+                "Scalable Integration",
               ].map((feature, index) => (
                 <li
                   key={index}
@@ -316,10 +331,6 @@ const Products = () => {
                 </li>
               ))}
             </ul>
-
-            {/* <button className="btn btn-outline" style={{ width: "100%" }}>
-              Learn More
-            </button> */}
           </div>
 
           {/* AI Agents */}
